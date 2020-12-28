@@ -1,0 +1,117 @@
+.lp-text-16 {
+  padding: 32px 0;
+}
+
+.lp-text-16 .lp-block-overlay {
+  background-color: rgba(31, 80, 161, 0.1);
+}
+.lp-text-16__image {
+  height: 220px;
+  line-height: 0;
+}
+.lp-text-16__image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.lp-text-16-content {
+  padding: 24px 16px;
+  background-color: #fff;
+}
+.lp-text-16__title {
+  margin: 0;
+}
+.lp-text-16__text {
+  padding: 0;
+  margin-top: 8px;
+}
+.lp-text-16__button {
+  margin-top: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+@media all and (min-width: 600px) {
+  .lp-text-16 {
+    padding: 56px 0;
+  }
+  .lp-text-16__image {
+    height: 340px;
+  }
+  .lp-text-16-content {
+    padding: 32px;
+  }
+  .lp-text-16__button {
+    width: auto;
+    /*min-width: 272px;*/
+    margin-left:8px;
+    margin-right:8px;
+  }
+}
+@media all and (min-width: 960px) {
+  .lp-text-16-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .lp-text-16__image {
+    height: auto;
+    width: 432px;
+    z-index: 1;
+    margin-right: -112px;
+    min-height: 406px;
+    flex: none;
+    position: relative;
+  }
+  
+  .lp-text-16__image img {position: absolute;}
+  .lp-text-16-content {
+    z-index: 2;
+    width: 592px;
+    margin: 32px 0;
+    align-self: center;
+  }
+  .lp-text-16._reverse .lp-text-16__image {
+    order: 2;
+    margin: 0 0 0 -112px;
+  }
+  .lp-text-16._reverse .lp-text-16-content {
+    order: 1;
+  }
+  
+  .lp-text-16__buttons-wrapper {margin-left: -8px;}
+}
+@media all and (min-width: 1200px) {
+  .lp-text-16 {
+    padding: 80px 0;
+  }
+  .lp-text-16__image {
+    width: 564px;
+    min-height: 480px;
+    margin-right: -74px;
+  }
+  .lp-text-16-content {
+    margin: 40px 0;
+    width: 662px;
+    padding: 40px;
+  }
+  .lp-text-16__text {
+    margin-top: 16px;
+  }
+  .lp-text-16__button {
+    margin-top: 24px;
+  }
+  .lp-text-16._reverse .lp-text-16__image {
+    margin: 0 0 0 -74px;
+  }
+}
+@media all and (min-width: 1380px) {
+  .lp-text-16__image {
+    width: 628px;
+    margin-right: -78px;
+  }
+  .lp-text-16-content {
+    width: 738px;
+  }
+  .lp-text-16._reverse .lp-text-16__image {
+    margin: 0 0 0 -78px;
+  }
+}

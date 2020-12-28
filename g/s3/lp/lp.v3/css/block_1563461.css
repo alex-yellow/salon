@@ -1,0 +1,203 @@
+.lp-advantages-17 {
+  background: rgba(31, 80, 161, 0.05);
+}
+.lp-advantages-17 .lp-block-bg {
+    background-image: url(../img/lp-advantages-17-bg.jpg);
+}
+.lp-advantages-17 .lp-advantages-17-top-part {
+  padding-top: 32px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8))), url(bg.jpg) center 0/cover no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.8)), url(bg.jpg) center 0/cover no-repeat;
+  position: relative;
+}
+.lp-advantages-17 .lp-advantages-17-top-part .lp-wrapp .lp-advantages-17__title {
+	max-width: 848px;
+  margin: 0 auto 8px;
+  text-align: center;
+}
+.lp-advantages-17 .lp-advantages-17-top-part .lp-wrapp .lp-advantages-17__text {
+	max-width: 848px;
+  margin: 0 auto 32px;
+  text-align: center;
+  padding: 0;
+}
+.lp-advantages-17 .lp-advantages-17-bottom-part {
+  padding-bottom: 32px;
+  background: rgba(31, 80, 161, 0.05);
+}
+.lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 16px;
+  padding: 24px 16px;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+}
+.lp-advantages-17__item-img {
+  margin: 0 auto;
+  line-height: 0;
+  font-size: 0;
+  fill:#1F50A1;
+  width: 48px;
+  height: 48px;
+  max-height: 500px;
+}
+.lp-advantages-17__item-img svg {
+	width: 100%;
+	height: 100%;
+}
+
+.lp-features-17__button {
+	margin: 0 0 16px;
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+	.lp-features-17__button {
+		margin: 0 8px 16px;
+		width: auto;
+	}
+}
+.lp-advantages-17__item-title {
+  margin: 16px 0 0;
+}
+.lp-advantages-17__item-text {
+  margin: 8px 0 0;
+  padding: 0;
+}
+.lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__button-wrapper {
+  text-align: center;
+}
+
+@media all and (min-width: 600px) {
+  .lp-advantages-17 .lp-advantages-17-top-part {
+    padding-top: 56px;
+  }
+  .lp-advantages-17 .lp-advantages-17-top-part .lp-wrapp .lp-advantages-17__title {
+    margin: 0 auto 16px;
+  }
+  .lp-advantages-17 .lp-advantages-17-top-part .lp-wrapp .lp-advantages-17__text {
+    margin: 0 auto 56px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part {
+    padding-bottom: 56px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 -12px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    margin: 0 12px 24px;
+    padding: 24px 24px;
+    width: 276px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item .lp-advantages-17__item-title {
+    margin: 24px 0 0;
+  }
+}
+@media all and (min-width: 960px) {
+  .lp-advantages-17 .lp-advantages-17-top-part {
+    padding-top: 64px;
+  }
+  .lp-advantages-17 .lp-advantages-17-top-part .lp-wrapp .lp-advantages-17__text {
+    margin: 0 auto 64px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part {
+    padding-bottom: 64px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+    margin: 0 -24px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    margin: 0 24px 40px;
+    width: 432px;
+  }
+
+  .lp-advantages-17._3 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item, .lp-advantages-17._4 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    width: 272px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .lp-advantages-17 .lp-advantages-17-top-part {
+    padding-top: 80px;
+  }
+  .lp-advantages-17 .lp-advantages-17-top-part .lp-wrapp .lp-advantages-17__title {
+    margin: 0 auto 24px;
+  }
+  .lp-advantages-17 .lp-advantages-17-top-part .lp-wrapp .lp-advantages-17__text {
+    margin: 0 auto 80px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part {
+    padding-bottom: 80px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+    margin: 0 -12px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    margin: 0 12px 48px;
+    padding: 32px 32px;
+    width: 564px;
+  }
+
+  .lp-advantages-17._3 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    width: 368px;
+  }
+
+  .lp-advantages-17._4 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    width: 270px;
+  }
+}
+@media all and (min-width: 1380px) {
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+    margin: 0 -16px;
+  }
+  .lp-advantages-17 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    margin: 0 16px 48px;
+    width: 628px;
+  }
+
+  .lp-advantages-17._3 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .lp-advantages-17._3 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    text-align: center;
+    width: 408px;
+  }
+
+  .lp-advantages-17._right .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .lp-advantages-17._right .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    text-align: right;
+  }
+
+  .lp-advantages-17._left .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .lp-advantages-17._left .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    text-align: left;
+  }
+
+  .lp-advantages-17._4 .lp-advantages-17-bottom-part .lp-wrapp .lp-advantages-17__content .lp-advantages-17__item {
+    width: 298px;
+  }
+}
+
+/*# sourceMappingURL=lp_style.css.map */

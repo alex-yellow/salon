@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('SourceSansPro-Bold.bin') format('woff2'), /* Modern Browsers */
+		url('SourceSansPro-Bold.woff') format('woff'), /* Modern Browsers */
+		url('SourceSansPro-Bold-1.bin') format('truetype'); /* Legacy iOS */
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('SourceSansPro-Regular.bin') format('woff2'), /* Modern Browsers */
+		url('SourceSansPro-Regular.woff') format('woff'), /* Modern Browsers */
+		url('SourceSansPro-Regular-1.bin') format('truetype'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('SourceSansPro-RegularItalic.bin') format('woff2'), /* Modern Browsers */
+		url('SourceSansPro-RegularItalic.woff') format('woff'), /* Modern Browsers */
+		url('SourceSansPro-RegularItalic-1.bin') format('truetype'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('SourceSansPro-BoldItalic.bin') format('woff2'), /* Modern Browsers */
+		url('SourceSansPro-BoldItalic.woff') format('woff'), /* Modern Browsers */
+		url('SourceSansPro-BoldItalic-1.bin') format('truetype'); /* Legacy iOS */
+	font-weight: bold;
+	font-style: italic;
+}

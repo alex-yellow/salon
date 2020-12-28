@@ -1,0 +1,201 @@
+.lp-contacts-24 {
+    position: relative;
+}
+
+.lp-contacts-24__wrap {
+    position: relative;
+    text-align: center;
+}
+
+.lp-contacts-24__top-wrap {
+    position: relative;
+}
+
+.lp-contacts-24__top-wrap {
+    padding: 32px 0 24px;
+}
+
+.lp-contacts-24__text {
+    margin-top: 8px;
+}
+
+.lp-contacts-24__socials {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -24px;
+}
+
+.lp-contacts-24__socials-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: calc(50% - 16px);
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.lp-contacts-24__socials-item-icon-in {
+    width: 32px;
+    height: 32px;
+    max-width: 200px;
+    box-sizing: content-box;
+}
+
+.lp-contacts-24__socials-item-icon {
+    border-radius: 50%;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 8px solid #E9EDF6;
+}
+
+.lp-contacts-24__socials-item-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.lp-contacts-24__socials-item-text {
+    margin-top: 8px;
+}
+
+.lp-contacts-24__bottom {
+    position: relative;
+    background: rgba(31, 80, 161, 0.05);
+}
+
+.lp-contacts-24__bottom-bg-overlay {
+    background: rgba(31, 80, 161, 0.05);
+}
+
+.lp-contacts-24__bottom-wrap {
+    position: relative;
+    padding: 24px 0;
+}
+
+.lp-contacts-24__bottom-title {
+    margin-top: 8px;
+}
+
+@media all and (min-width: 600px) {
+    .lp-contacts-24__top-wrap {
+        padding: 56px 0 40px;
+    }
+
+    .lp-contacts-24__text {
+        margin-top: 16px;
+    }
+
+    .lp-contacts-24__socials {
+        margin-top: 40px;
+        margin-right: -12px;
+        margin-left: -12px;
+        margin-bottom: -40px;
+    }
+
+    .lp-contacts-24__socials-item {
+        width: calc(50% - 24px);
+        margin-right: 12px;
+        margin-left: 12px;
+        margin-bottom: 40px;
+    }
+
+    .lp-contacts-24__socials-item-icon {
+        padding: 23px;
+    }
+
+    .lp-contacts-24__socials-item-text {
+        margin-top: 24px;
+    }
+
+    .lp-contacts-24__bottom-wrap {
+        padding: 40px 0;
+    }
+
+    .lp-contacts-24__bottom-title {
+        margin-top: 16px;
+    }
+
+    .lp-contacts-24._3 .lp-contacts-24__socials-item, .lp-contacts-24._4 .lp-contacts-24__socials-item {
+        width: 176px;
+    }
+}
+
+@media all and (min-width: 960px) {
+    .lp-contacts-24._3 .lp-contacts-24__socials-item {
+        width: 288px;
+    }
+
+    .lp-contacts-24._4 .lp-contacts-24__socials-item {
+        width: 210px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .lp-contacts-24__top-wrap {
+        padding: 80px 0 64px;
+    }
+    
+    .lp-contacts-24__title, .lp-contacts-24__text {
+    	max-width: 848px;
+    	margin-right: auto;
+    	margin-left: auto;
+    }
+
+    .lp-contacts-24__socials {
+        margin-top: 64px;
+    }
+
+    .lp-contacts-24._3 .lp-contacts-24__socials-item {
+        width: 368px;
+    }
+
+    .lp-contacts-24._4 .lp-contacts-24__socials-item {
+        width: 270px;
+    }
+}
+
+@media all and (min-width: 1380px) {
+    .lp-contacts-24__socials {
+        margin-right: -16px;
+        margin-left: -16px;
+    }
+
+    .lp-contacts-24__socials-item {
+        width: calc(50% - 32px);
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .lp-contacts-24._3 .lp-contacts-24__socials-item {
+        width: 408px;
+    }
+
+    .lp-contacts-24._4 .lp-contacts-24__socials-item {
+        width: 298px;
+    }
+}

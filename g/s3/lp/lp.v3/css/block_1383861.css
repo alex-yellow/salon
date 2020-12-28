@@ -1,0 +1,171 @@
+.lp-advantages-2 {
+	position: relative;
+	padding: 48px 0 24px;
+}
+
+.lp-advantages-2 .lp-block-overlay {
+	background: rgba(34, 34, 34, 0.05);
+}
+
+.lp-advantages-2__item {
+	margin: 0 0 24px;
+	background: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.lp-advantages-2__item-icon {
+	margin: 0 auto 16px;
+	font-size: 0px;
+	width: 48px;
+	height: 48px;
+	display: inline-flex;
+}
+
+.lp-advantages-2__item-icon svg {
+	width: 100%;
+	height: 100%;
+}
+
+.lp-advantages-2__item-icon._lp-max-width {
+	max-width: 400px;
+}
+
+.lp-advantages-2__item-icon path:not([fill]) {
+	fill: #444;
+}
+
+.lp-advantages-2__item-text {
+	margin-top: 8px;
+}
+
+
+@media all and (min-width: 600px) {
+	.lp-advantages-2 {
+		padding: 64px 0 40px;
+	}
+	
+	.lp-advantages-2__inner {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 -12px 0; 
+	}
+	
+	.lp-advantages-2__item {
+		margin: 0 12px 24px;
+		width: 276px;
+	}
+}
+
+@media all and (min-width: 960px) {
+	.lp-advantages-2 {
+		padding: 64px 0 16px;
+	}
+	
+	.lp-advantages-2__item {
+		margin: 0 24px 48px;
+		width: 272px;
+	}
+	
+	.lp-advantages-2__inner {
+		margin: 0 -24px 0;
+	}
+	
+	._2 .lp-advantages-2__item {
+		width: 432px;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.lp-advantages-2 {
+		padding: 80px 0 48px;
+	}
+	
+	.lp-advantages-2__inner {
+		margin: 0 -12px 0;
+	}
+	
+	
+	.lp-advantages-2__title {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 848px;
+	}
+
+	
+	.lp-advantages-2__item {
+		margin: 0 12px 32px;
+		width: 270px;
+	}
+	
+	._3 .lp-advantages-2__item {
+		width: 368px;
+	}
+	
+	._2 .lp-advantages-2__item {
+		width: 628px;
+	}
+}
+
+@media all and (min-width: 1380px) {
+	.lp-advantages-2__item-inner {
+		padding: 32px 24px;
+	}
+	
+	.lp-advantages-2__inner {
+		margin: 0 -16px 0;
+	}
+	
+	.lp-advantages-2__item {
+		margin: 0 16px 32px;
+		width: 298px;
+	}
+	
+	._3 .lp-advantages-2__item {
+		width: 408px;
+	}
+}
+
+
+.lp-advantages-2__buttons-wrap {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.lp-advantages-2__button {
+  display: block;
+  margin: 0 16px 16px 0;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+
+
+.lp-advantages-2__buttons {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 -16px -16px 0;
+  flex-wrap: wrap;
+}
+
+.lp-advantages-2__title {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+
+@media all and (min-width: 600px) {
+  .lp-advantages-2__buttons-wrap {
+  }
+
+  .lp-advantages-2__button {
+    width: auto;
+  }
+
+  .lp-advantages-2__buttons {
+    display: inline-flex;
+  }
+}
